@@ -1,0 +1,30 @@
+h1{
+    background-color: #053B50 ;
+    padding: 1.25rem 5rem;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    color: #ffffff;
+}
+.main_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: .5rem 28%;
+    background-color: #176B87;
+    box-shadow: 0 4px 8px 0 rgba(20, 20, 20, 1), 0 6px 20px 0 rgba(20, 20, 20, 1);
+
+}
+
+form{
+    padding: 2.5rem 6rem;
+    background-color: #EEEEEE;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.btn-submit{
+    background-color: #3c68eb;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    border: none;
+}
