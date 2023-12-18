@@ -24,7 +24,7 @@ const EnrollForm = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:8000/api/enroll", {
+      const response = await fetch(process.env.REACT_APP_BACKEND_URL, {
         method: 'POST',
         body: JSON.stringify({
           name,
